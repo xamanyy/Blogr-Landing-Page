@@ -10,13 +10,20 @@ sans-serif; */
   padding: 0;
   box-sizing: border-box;
 }
-
-html,
-body {
-  width: 100%;
-  margin: 0px;
-  padding: 0px;
+  html,
+  body {
+     max-width: 100%;
+     overflow-x: hidden;
+     width: 100%;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+  }
+.wrapper{
   overflow-x: hidden;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 /* Mobile Menu */
@@ -29,11 +36,12 @@ body {
 .hero{
   height: 70vh;
   background-color: hsl(356, 100%, 66%);
-  width: 100vw;
+  width: 100%;
   border-bottom-left-radius: 90px ;
 }
 
 .hero-bg{
+ 
   height: 70vh; 
   width: 165%;
   margin: 0 auto;
