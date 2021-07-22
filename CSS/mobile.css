@@ -2,9 +2,12 @@
 
 /* HERO SECTION */
 
-body,html {
-  overflow-x:hidden;
-  width:100%;
+html,
+body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
 
 .hero {
