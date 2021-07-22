@@ -13,6 +13,7 @@ sans-serif; */
 
 body,html{
   overflow-x:hidden;
+   width:100%;
 }
 
 /* Mobile Menu */
