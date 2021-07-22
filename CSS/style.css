@@ -11,6 +11,10 @@ sans-serif; */
   box-sizing: border-box;
 }
 
+body,html{
+  overflow-x:hidden;
+}
+
 /* Mobile Menu */
 .menu{
  display:none;
