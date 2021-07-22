@@ -1,9 +1,7 @@
 @media only screen and (max-width: 768px) {
 
 /* HERO SECTION */
-body{
-  margin-top:-14px;
-}
+
 
 .hero {
    width:100%;
@@ -11,8 +9,9 @@ body{
   border-bottom-left-radius: 124px;
 }
 .menu {
+  position: absolute;
   display:block;
-  right:5%;
+  right:9%;
   top: 9%;
 }
 
