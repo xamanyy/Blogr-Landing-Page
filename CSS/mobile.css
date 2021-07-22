@@ -1,22 +1,12 @@
-@media screen and (max-width:1024px) {
+@media screen and (max-width:768px) {
 
 /* HERO SECTION */
-
-html,
-body {
-  width: 100%;
-  margin: 0px;
-  padding: 0px;
-  overflow-x: hidden;
-}
-
 .hero {
   height: 74vh;
   border-bottom-left-radius: 124px;
 }
 .menu {
   display:block;
-  position:absolute;
   right:5%;
   top: 9%;
 }
